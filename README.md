@@ -7,6 +7,9 @@ When transferring photos from Google Photos, missing creation date metadata can 
 - Python installed
 - ExifTool installed
 
+## Download from Google Photos
+To download Google Photos folders, choose the download from link and choose only albums with dated photos, such as "Photos from 2015." This assists the script, allowing it to fallback to the folder's year in case no metadata, Google JSON file, or both are available, ensuring proper organization of these files.
+
 ## Usage
 Download Google Photos in a zip file, selecting albums organized by dates (e.g., "Photos from 2015").
 Place the script in the same location as the folders.
